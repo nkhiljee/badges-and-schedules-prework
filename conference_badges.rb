@@ -4,10 +4,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  loop do
-    badges.push badge_maker(attendees)
-  end
+attendees.each { |a| print badge_maker(attendees)}
 end
 
-arr = [1, 2, 3, 4, 5]
-arr.each { |a| print a -= 10, " " }
