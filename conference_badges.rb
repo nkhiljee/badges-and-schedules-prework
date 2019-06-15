@@ -1,4 +1,4 @@
 # Write your code here.
-def badge_maker(array)
-  puts "Hello, my name is #{array.push}."
+def badge_maker(name)
+  puts "Hello, my name is #{name}."
 end
