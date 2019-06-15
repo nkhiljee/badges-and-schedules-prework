@@ -11,4 +11,6 @@ def batch_badge_creator(array)
   return attendees
 end
 
-def assign_rooms
+def assign_rooms(array)
+  attendees = []
+  array.each do 
