@@ -4,7 +4,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.times do
+  loop do
     badges.push badge_maker(attendees)
   end
 end
