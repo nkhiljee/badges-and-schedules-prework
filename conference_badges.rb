@@ -5,4 +5,6 @@ end
 
 def batch_badge_creator(attendees)
   attendees.times do
+    badges.push badge_maker(attendees)
+  end
 end
